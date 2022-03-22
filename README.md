@@ -2,7 +2,7 @@
 
 ##  Tehtävät:
 
-1. viikko
+Viikko 1
 
 Linkit: 
 
