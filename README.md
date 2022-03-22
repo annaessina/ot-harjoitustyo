@@ -1,8 +1,7 @@
-**Moi**
+# Ohjelmistotekniikka
 
-Tässä on päivän tehtävät:
+#  Tehtävät:
 
-- siivoaminen
-- ruokaostokset
+1. viikko
 
-*Kiitos!*
+
