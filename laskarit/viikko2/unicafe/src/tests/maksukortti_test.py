@@ -16,7 +16,7 @@ class TestMaksukortti(unittest.TestCase):
         self.assertEqual(str(self.maksukortti), "saldo: 0.2")
 
     def test_rahan_ottaminen_toimii(self):
-        self.maksukortti.ota_rahaa(15)
+        self.maksukortti.ota_rahaa(5)
         self.assertEqual(str(self.maksukortti), "saldo: 0.05")
 
     
