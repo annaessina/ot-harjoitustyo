@@ -1,0 +1,7 @@
+maksukortti/
+  src/
+    maksukortti.py
+    tests/
+      __init__.py
+      maksukortti_test.py
+  ...
