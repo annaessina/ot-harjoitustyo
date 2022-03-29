@@ -8,7 +8,9 @@ class TestMaksukortti(unittest.TestCase):
     def test_konstruktori_asettaa_saldon_oikein(self):
         kortti = Maksukortti(10)
 
-        self.assertEqual str(kortti), "Kortilla on rahaa 10 euroa")
+        vastaus = str(kortti)
+
+        self.assertEqual(vastaus, "Kortilla on rahaa 10 euroa")
 
     def test_syo_edullisesti_vahentaa_saldoa_oikein(self):
         kortti = Maksukortti(10)
