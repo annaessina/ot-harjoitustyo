@@ -1,14 +1,14 @@
-#Vaatimusmäärittely
+**Vaatimusmäärittely**
 
-##Sovelluksen tarkoitus
+**Sovelluksen tarkoitus**
 
 Sovelluksen tarkoituksena on laskea erilaisia matemaattisia laskuja eli sovellus on laskin.
 
-##Suunnitellut toiminallisuudet
+**Suunnitellut toiminallisuudet**
 
 - Käyttäjä pystyy sovelluksen avulla laskemaan esimerkiksi +, - ja * laskuja
 - Käyttäjän laskinhistoria jää talteen
 
-##Jatkokehitysideoita
+**Jatkokehitysideoita**
 - Vaikeimpien laskujen laskeminen
 - Graafiset laskelmat
