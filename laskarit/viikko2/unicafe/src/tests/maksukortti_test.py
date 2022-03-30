@@ -7,3 +7,8 @@ class TestMaksukortti(unittest.TestCase):
 
     def test_luotu_kortti_on_olemassa(self):
         self.assertNotEqual(self.maksukortti, None)
+
+    def kortin_saldo_alussa_oikein(self):
+        self.assertEqual(self.maksukortti.saldo, 10)
+    
+    
