@@ -30,3 +30,6 @@ class TestMaksukortti(unittest.TestCase):
     def test_raha_ei_riita(self):
         self.maksukortti.ota_rahaa(8)
         self.assertNotEqual(self.maksukortti.ota_rahaa, False)
+
+    def test_saldo_euroina(self):
+        self.assertEqual(str(self.maksukortti), "saldo: 0.1")
