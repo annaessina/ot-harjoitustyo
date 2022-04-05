@@ -1,3 +1,4 @@
+
 from konsoli_io import KonsoliIO
 
 KOMENNOT = {
@@ -8,8 +9,10 @@ KOMENNOT = {
 
 
 class Calculator:
-    def __init__(self):
+    def __init__(self, number1, number2):
         self._io = KonsoliIO()
+        self.number1 = number1
+        self.number2 = number2
 
     def kaynnista(self):
         self._io.tulosta("Calculator")
