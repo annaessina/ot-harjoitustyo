@@ -1,46 +1,42 @@
-
-from konsoli_io import KonsoliIO
-
-KOMENNOT = {
-    "x": "x lopeta",
-    "1": "1 add number1 + number2",
-    "2": "2 distract number1 - number2",
-}
-
-
 class Calculator:
-    def __init__(self, number1, number2):
-        self._io = KonsoliIO()
-        self.number1 = number1
-        self.number2 = number2
+    def __init__(self):
+        self.number1 = self.number2 = 0
 
-    def kaynnista(self):
-        self._io.tulosta("Calculator")
-        self._tulosta_ohje()
+    def start(self):
+        temp = "+"
 
-        while True:
-            komento = self._io.lue("komento: ")
+        while temp == "+" or temp == "-":
+            print("Select + or -: ")
 
-            if not komento in KOMENNOT:
-                self._io.tulosta("virheellinen komento")
-                self._tulosta_ohje()
-                continue
+            temp = str(input())
 
-            if komento == "x":
+            if temp != "+" and temp != "-":
+                print("Incorrect command")
                 break
-            elif komento == "1":
-                self._add_number()
-            elif komento == "2":
-                self._dist_number()
 
-    def _add_number(self):
-        number1 = self._io.lue("enter first number: ")
-        number2 = self._io.lue("enter second number: ")
-        temp = number1+number2
-        self._io.tulosta(temp)
+            print("Type in numbers?")
+            self.number1 = int(input("number1: "))
+            self.number2 = int(input("number2: "))
 
-    def _dist_number(self):
-        number1 = self._io.lue("enter first number: ")
-        number2 = self._io.lue("enter second number: ")
-        temp = number1-number2
-        self._io.tulosta(temp)
+            if temp == "+":
+                print(self.add())
+
+            if temp == "-":
+                print(self.dist())
+
+
+
+    def add(self):
+        result = self.number1 + self.number2
+        return result
+
+    def dist(self):
+        result = self.number1 - self.number2
+        return result
+
+
+
+
+if __name__ == "__main__":
+    Calculator = Calculator()
+    Calculator.start()

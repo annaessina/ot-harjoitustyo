@@ -3,11 +3,13 @@ from calculator import Calculator
 
 class TestCalculator(unittest.TestCase):
     def setUp(self):
-        calc1 = Calculator(5,3)
+        self.Calculator = Calculator()
+        self.Calculator.number1 = 8
+        self.Calculator.number2 = 3
 
+    def test_add_oikein(self):
 
-    def test_add_number_oikein(self):
-        self.calc1.kaynnista()
+        self.assertEqual(self.Calculator.add(), 11)
 
-        self.assertEqual(self.calc1, 8)
-
+    def test_dist_oikein(self):
+        self.assertEqual(self.Calculator.dist(), 5)
