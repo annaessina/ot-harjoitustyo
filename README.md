@@ -1,7 +1,7 @@
 # Ohjelmistotekniikka
 
 ##  Laskin
-
+Tämän laskimen avulla käyttäjä pystyy laskemaan erilaisia matemaattisia laskuja.
 
 [vaatimusmaarittely.md](https://github.com/annaessina/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
 
