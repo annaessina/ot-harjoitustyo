@@ -9,3 +9,27 @@ Tämän laskimen avulla käyttäjä pystyy laskemaan erilaisia matemaattisia las
 
 [changelog.md](https://github.com/annaessina/ot-harjoitustyo/blob/main/dokumentaatio/changelog.md)
 
+## Ohjelman asennus:
+
+```bash
+poetry install
+```
+
+## Ohjelman käynnistäminen:
+
+```bash
+poetry run invoke start
+```
+
+## Testien suoritus:
+
+```bash
+poetry run invoke test
+```
+
+## Testikattavuusraportin luominen:
+
+```bash
+poetry run invoke coverage-report
+```
+
