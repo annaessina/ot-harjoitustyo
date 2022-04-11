@@ -31,8 +31,6 @@ class Calculator:
             if temp == "/":
                 print(self.div())
 
-
-
     def add(self):
         result = self.number1 + self.number2
         return result
@@ -48,6 +46,7 @@ class Calculator:
     def div(self):
         result = self.number1 / self.number2
         return result
+
 
 if __name__ == "__main__":
     Calculator = Calculator()
