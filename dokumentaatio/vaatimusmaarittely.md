@@ -6,7 +6,8 @@ Sovelluksen tarkoituksena on laskea erilaisia matemaattisia laskuja eli sovellus
 
 **Suunnitellut toiminallisuudet**
 
-- Käyttäjä pystyy sovelluksen avulla laskemaan esimerkiksi +, - ja * laskuja
+- Käyttäjä pystyy sovelluksen avulla laskemaan + ja -  laskuja (tehty)
+- Käyttäjä pystyy laskemaan myös * ja / laskuja (tehty)
 - Käyttäjän laskinhistoria jää talteen
 
 **Jatkokehitysideoita**
