@@ -33,3 +33,9 @@ poetry run invoke test
 poetry run invoke coverage-report
 ```
 
+## Pylint tarkistukset:
+
+```bash
+poetry run invoke lint
+```
+
