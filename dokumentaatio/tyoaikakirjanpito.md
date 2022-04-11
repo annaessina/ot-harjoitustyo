@@ -5,7 +5,8 @@
 | 4.4   |  3   | Laskin projektin aloitus |
 | 5.4   |  5   | Laskinsovelluksen teko: koodin runko |
 | 10.4  |  5   | Koodin runkoa paranneltu ja muokattu |
-| yht.  |  15  |
+| 11.4  |  6   | Laskimen kehittämistä ja ulkoasun tekemistä |
+| yht.  |  21  |
 
 
 
