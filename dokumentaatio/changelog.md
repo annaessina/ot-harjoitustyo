@@ -5,4 +5,5 @@
 # Viikko 4:
 - Sovelluksen koodia muutettiin huomattavasti ja nyt sovellus saadaan käynnistettyä
 - Lisättiin uusia testejä, jotka on testattu toimivaksi
-- Luotiin sovelluksen ikkuna
+- Luotiin sovelluksen käyttöliittymäsivu, jossa  kaikki laskut onnistuvat ja napit toimivat
+- README.md muokattiin ja lisättiin puuttuvat osuudet
