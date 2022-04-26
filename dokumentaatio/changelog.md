@@ -12,3 +12,4 @@
 - Käyttöliittymää laajenneettiin: käyttäjä pystyy luomaan käyttäjän ja kirjautumaan sisälle
 - Paranneltiin testejä
 - Lisättiin tietokanta
+- Korjattiin edellisen viikon virheet eli muokattiin coverage task ja poistettiin ylimääräinen koodi
