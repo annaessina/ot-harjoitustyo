@@ -38,3 +38,4 @@ class CalculatorServices:
         self._user_repository.delete_user(username)
 
 calculator_services = CalculatorServices()
+k
