@@ -7,3 +7,8 @@
 - Lisättiin uusia testejä, jotka on testattu toimivaksi
 - Luotiin sovelluksen käyttöliittymäsivu, jossa  kaikki laskut onnistuvat ja napit toimivat
 - README.md muokattiin ja lisättiin puuttuvat osuudet
+
+# Viikko 5:
+- Käyttöliittymää laajenneettiin: käyttäjä pystyy luomaan käyttäjän ja kirjautumaan sisälle
+- Paranneltiin testejä
+- Lisättiin tietokanta
