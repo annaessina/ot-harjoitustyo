@@ -8,7 +8,9 @@ Sovelluksen tarkoituksena on laskea erilaisia matemaattisia laskuja eli sovellus
 
 - Käyttäjä pystyy sovelluksen avulla laskemaan + ja -  laskuja (tehty)
 - Käyttäjä pystyy laskemaan myös * ja / laskuja (tehty)
+- Käyttäjä pystyy luomaan käyttäjän ja kirjautumaan sisälle (tehty)
 - Käyttäjän laskinhistoria jää talteen
+
 
 **Jatkokehitysideoita**
 - Vaikeimpien laskujen laskeminen
