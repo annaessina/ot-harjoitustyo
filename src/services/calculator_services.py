@@ -9,7 +9,7 @@ class InvalidUsernameOrPasswordError(Exception):
     pass
 
 class CalculatorServices:
-    def __init__(self, user_repository= default_user_repository)
+    def __init__(self, user_repository= default_user_repository):
         self._user = None
         self._user_repository = user_repository
 
