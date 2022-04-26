@@ -1,7 +1,7 @@
 # Ohjelmistotekniikka
 
 ##  Laskin
-Tämän laskimen avulla käyttäjä pystyy laskemaan erilaisia matemaattisia laskuja. Käyttäjän laskinhistoria jää talteen.
+Tämän laskimen avulla käyttäjä pystyy laskemaan erilaisia matemaattisia laskuja. Käyttäjä pystyy kirjautumaan sisään ja  laskinhistoria jää talteen.
 
 [Vaatimusmäärittely](https://github.com/annaessina/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
 
@@ -10,6 +10,9 @@ Tämän laskimen avulla käyttäjä pystyy laskemaan erilaisia matemaattisia las
 [Changelog](https://github.com/annaessina/ot-harjoitustyo/blob/main/dokumentaatio/changelog.md)
 
 [Arkkitehtuuri](https://github.com/annaessina/ot-harjoitustyo/blob/main/dokumentaatio/arkkitehtuuri.md)
+
+[Releases](https://github.com/annaessina/ot-harjoitustyo/releases/tag/viikko5)
+
 
 ## Ohjelman asennus:
 
