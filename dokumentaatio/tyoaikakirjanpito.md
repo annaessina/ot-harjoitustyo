@@ -7,6 +7,10 @@
 | 10.4  |  5   | Koodin runkoa paranneltu ja muokattu |
 | 11.4  |  6   | Laskimen kehittämistä ja ulkoasun tekemistä |
 | 12.4  |  4   | Laskinsovelluksen teko |
-| yht.  |  25  
+| 16.4  |  3   | Koodin parantelua |
+| 20.4  |  5   | Käyttöliittymän laajentaminen |
+| 25.4  |  5   | Testien parantaminen |
+| 26.4  |  6   | Laskinsovelluksen teko |
+| yht.  |  44  |
 
 
