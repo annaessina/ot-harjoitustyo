@@ -3,7 +3,13 @@ from services.calculator_services import calculator_services, UsernameError
 
 
 class CreateNew():
+    """Class which is responsible for functionality for new user account creation"""
     def __init__(self, root, login):
+        """Constructor creates an entity of class to handle functionality
+        for new user account creation
+        Args:
+            root: Tkinter instance where user interface is initiated,
+            login: takes care of return to main log in window """
         self._root = root
         self._frame = None
         self._login = login
@@ -15,12 +21,15 @@ class CreateNew():
         self._create()
 
     def pack(self):
+        """Call for Pack Layout Manager """
         self._frame.pack(fill=constants.X)
 
     def destroy(self):
+        """Call to destroy window"""
         self._frame.destroy()
 
     def _create(self):
+        """Creates window to enter new username and password """
         self._frame = ttk.Frame(master=self._root)
 
         self._error_variable = StringVar(master=self._frame)
@@ -61,6 +70,7 @@ class CreateNew():
         self._hide_error()
 
     def _create_process(self):
+        """Takes care of new user account creation """
         username = self._username_entry.get()
         password = self._password_entry.get()
 
@@ -78,8 +88,12 @@ class CreateNew():
             self._show_error("Incorrect name or password")
 
     def _show_error(self, message):
+        """Shows error message
+        Args:
+            message: error message"""
         self._error_variable.set(message)
         self._error_label.grid(row=5, column=0, padx=5, pady=5)
 
     def _hide_error(self):
+        """Hides error message"""
         self._error_label.grid_remove()
