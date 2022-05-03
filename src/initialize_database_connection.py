@@ -2,35 +2,29 @@ from database_connection import get_database_connection
 
 
 def drop_tables(connection):
-
     cursor = connection.cursor()
 
-    cursor.execute('''
-        drop table if exists users;
-    ''')
+    cursor.execute("DROP TABLE IF EXISTS Users;")
 
     connection.commit()
 
 
 def create_tables(connection):
-
     cursor = connection.cursor()
 
-    cursor.execute('''
-        create table users (
-            username text primary key, password text, a float, b float, a+b float, a-b float, a*b float, a/b float);
-    ''')
+    cursor.execute(
+        "CREATE TABLE Users (username text PRIMARY KEY, password text);")
+
+
 
     connection.commit()
 
 
 def initialize_database():
-
     connection = get_database_connection()
-
     drop_tables(connection)
     create_tables(connection)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     initialize_database()
