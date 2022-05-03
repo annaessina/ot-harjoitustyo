@@ -2,12 +2,18 @@ from tkinter import ttk, constants, StringVar
 from services.calculator_services import calculator_services, InvalidUsernameOrPasswordError
 
 class LogIn():
+    """Class which is responsible for authentification of users"""
     def __init__(self, root, handle_login, create_user):
+        """Constructor creates an entity of class to handle functionality
+        for user authentification
+        Args:
+            root: Tkinter instance where user interface is initiated,
+            handle_login: takes care of log in functionality,
+            create_user: create new user account window """
         self._root = root
         self._handle_create_user = create_user
         self._handle_login = handle_login
         self._frame = None
-        self._username_entry = None
         self._username_entry = None
         self._error_variable = None
         self._error_label = None
@@ -15,12 +21,15 @@ class LogIn():
         self._login()
 
     def pack(self):
+        """Call for Pack Layout Manager """
         self._frame.pack(fill=constants.X)
 
     def destroy(self):
+        """Call to destroy window"""
         self._frame.destroy()
 
     def _login(self):
+        """Main window to start log in process is created """
         self._frame = ttk.Frame(master= self._root)
 
         self._error_variable = StringVar(master= self._frame)
@@ -55,6 +64,7 @@ class LogIn():
         self._hide_error()
 
     def _login_process(self):
+        """Checks whether name and password are entered and proceeds for authentification"""
         username = self._username_entry.get()
         password = self._password_entry.get()
 
@@ -63,7 +73,7 @@ class LogIn():
             return
 
         if len(password) == 0:
-            self._show_error("Password is missing. Enter it again.")
+            self._show_error("Password is mising. Enter it again.")
             return
 
         try:
@@ -74,8 +84,12 @@ class LogIn():
             self._show_error("Incorrect name or password")
 
     def _show_error(self, message):
+        """Shows error message
+        Args:
+            message: error message"""
         self._error_variable.set(message)
         self._error_label.grid(row= 0, column= 1, padx= 5, pady= 5)
 
     def _hide_error(self):
+        """Hides error message"""
         self._error_label.grid_remove()
