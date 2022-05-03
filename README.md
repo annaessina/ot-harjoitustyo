@@ -16,11 +16,19 @@ Tämän laskimen avulla käyttäjä pystyy laskemaan erilaisia matemaattisia las
 
 ## Ohjelman asennus:
 
+Riippuvuuksien asennus:
+
 ```bash
 poetry install
 ```
 
-## Ohjelman käynnistäminen:
+Alusrustoimenpiteiden suorittaminen:
+
+```bash
+poetry run invoke build
+```
+
+Sovelluksen käynnistys
 
 ```bash
 poetry run invoke start
