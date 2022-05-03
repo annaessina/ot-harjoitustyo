@@ -21,14 +21,14 @@ Kaikki käyttämä data tallentuu kahteen tietokantaan.
 
 # Päätoiminnallisuudet
 
-##Käyttäjän luominen
+Käyttäjän luominen:
 
 Uuden käyttäjän tilin luominen toimii alla olevan kuvan mukaisesti.
 
-##Sisäänkirjautuminen
+Sisäänkirjautuminen:
 
 Jo olemassa olevan käyttäjän sisäänkirjautuminen toimii alla olevan kuvan mukaisesti.
 
-##Records luominen
+Records luominen:
 
 Kun kaikki tarvittavat matemaattiset operaatiot on suoritettu, uuden recordin kirjaaminen ja luominen tietokantaan toimii alla olevan kuvan mukaisesti.
