@@ -11,7 +11,7 @@ Tämän laskimen avulla käyttäjä pystyy laskemaan erilaisia matemaattisia las
 
 [Arkkitehtuuri](https://github.com/annaessina/ot-harjoitustyo/blob/main/dokumentaatio/arkkitehtuuri.md)
 
-[Releases](https://github.com/annaessina/ot-harjoitustyo/releases/tag/viikko5)
+[Releases](https://github.com/annaessina/ot-harjoitustyo/releases)
 
 [Käyttöohje](https://github.com/lottatan/ot_harjoitustyo/blob/master/dokumentaatio/k%C3%A4ytt%C3%B6ohje.md)
 
