@@ -1,26 +1,34 @@
-
 from tkinter import ttk, constants, StringVar, Listbox, Scrollbar
-from services.calculator_services import calculator_services
 from services.calculator_services import calculator_services
 from repositories.calculator_repository import calculator_repository
 
 
 class CalculatorView():
+    """Class which is responsible for functionality of math operations"""
     def __init__(self, root, handle_logout):
+        """Constructor creates an entity of class to handle functionality
+        of math operations
+        Args:
+            root: Tkinter instance where user interface is initiated,
+            handle_logout: takes care of log out functionality """
         self._root = root
         self._frame = None
         self._handle_logout = handle_logout
+        #self._handle_purchases_view = purchases_view
         self._user = calculator_services.get_current_user()
 
         self.calculator_view()
 
     def pack(self):
+        """Call for Pack Layout Manager """
         self._frame.pack(fill=constants.X)
 
     def destroy(self):
+        """Call to destroy window"""
         self._frame.destroy()
 
     def calculator_view(self):
+        """Windows is created to perform math operations"""
         self._frame = ttk.Frame(master=self._root)
 
         self._window_label = ttk.Label(
@@ -60,7 +68,6 @@ class CalculatorView():
         #self._lbl_result_div.grid(row= 5, columnspan=2, sticky=(constants.E, constants.W), padx=5, pady=5)
 
 
-
         logout_button = ttk.Button(
             master=self._frame, text="Log out", command=self._handle_logout)
         logout_button.grid(row=0, column=5, padx=5,
@@ -72,6 +79,7 @@ class CalculatorView():
 
 
     def _add_process(self):
+        """Performs addition"""
         numberA = self._numberA_entry.get()
         numberB = self._numberB_entry.get()
 
@@ -79,6 +87,7 @@ class CalculatorView():
         lbl_result_add["text"] = f"{sum}"
 
     def _dist_process(self):
+        """Performs distraction"""
         numberA = self._numberA_entry.get()
         numberB = self._numberB_entry.get()
 
@@ -86,6 +95,7 @@ class CalculatorView():
         lbl_result_dist["text"] = f"{dist}"
 
     def _mult_process(self):
+        """Performs multiplication"""
         numberA = self._numberA_entry.get()
         numberB = self._numberB_entry.get()
 
@@ -93,6 +103,7 @@ class CalculatorView():
         lbl_result_mult["text"] = f"{mult}"
 
     def _div_process(self):
+        """Performs division"""
         numberA = self._numberA_entry.get()
         numberB = self._numberB_entry.get()
 
@@ -101,9 +112,8 @@ class CalculatorView():
 
 
 
-
-
     def delete_process(self):
+        """Takes care of deletion of user data"""
         calculator_services.delete_user(self._user.username)
 
         self._handle_logout()
