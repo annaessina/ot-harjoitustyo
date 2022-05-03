@@ -11,6 +11,9 @@
 | 20.4  |  5   | Käyttöliittymän laajentaminen |
 | 25.4  |  5   | Testien parantaminen |
 | 26.4  |  6   | Laskinsovelluksen teko |
-| yht.  |  44  |
+| 29.4  |  3   | Käyttöliittymän muokkausta |
+| 2.5   |  2   | Sovelluksen toimivuuden parantamista |
+| 3.5   |  4   | Docstring ja koodin muokkausta | 
+| yht.  |  53  |
 
 
