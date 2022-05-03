@@ -13,3 +13,8 @@
 - Paranneltiin testejä
 - Lisättiin tietokanta
 - Korjattiin edellisen viikon virheet eli muokattiin coverage task ja poistettiin ylimääräinen koodi
+
+# Viikko 6:
+- Tietokannan toimivuutta muokattiin
+- Docstring aloitettu
+- Korjattu edellisen viikon virheet
