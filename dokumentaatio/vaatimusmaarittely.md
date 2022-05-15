@@ -23,4 +23,4 @@ Sovelluksessa on kolme näkymää:
 
 **Jatkokehitysideoita**
 - Vaikeimpien laskujen laskeminen
-- Graafiset laskelmat
+- Graafiset laskelmat ja piirrokset
