@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-dirname = os.path.dirname(__file__)
+dirname = os.path.dirname(os.path.abspath(__file__))
 
 try:
     load_dotenv(dotenv_path=os.path.join(dirname, "..", ".env"))
@@ -10,3 +10,4 @@ except FileNotFoundError:
 
 DB_FILENAME = os.getenv("DB_FILENAME") or "database.sqlite"
 DB_FILE_PATH = os.path.join(dirname, '..', 'data', DB_FILENAME)
+

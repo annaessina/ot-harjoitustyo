@@ -1,5 +1,9 @@
 from initialize_database_connection import initialize_database
 
 
-def pytest_configure():
+def build():
     initialize_database()
+
+
+if __name__ == "__main__":
+    build()

@@ -21,7 +21,8 @@ class Ui:
         """Shows main Log in window """
         self._hide_current_view()
 
-        self._current_view = LogIn(self._root, self._calculator_window, self._create_window)
+        self._current_view = LogIn(
+            self._root, self._calculator_window, self._create_window)
         self._current_view.pack()
 
     def _hide_current_view(self):
@@ -32,9 +33,9 @@ class Ui:
         self._current_view = None
 
     def _create_window(self):
-        """Shows a window to create new account"""
-        self._hide_current_view()
+        """Shows a window to create new user"""        
 
+        self._hide_current_view()
         self._current_view = CreateNew(self._root, self._login_window)
         self._current_view.pack()
 
@@ -44,3 +45,4 @@ class Ui:
 
         self._current_view = CalculatorView(self._root, self._login_window)
         self._current_view.pack()
+    
