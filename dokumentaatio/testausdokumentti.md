@@ -1,5 +1,8 @@
 # Testausdokumentti
 
+## Testien tarkoitus
+
+Kansio user_test.py sisältää testejä erilaisista toiminnoista, jotka ovat yhteydessä tietokantojen kanssa: käyttäjän luominen, käyttäjän etsiminen nimen perusteella, kaikkien käyttäjien estsiminen, käyttäjien poistaminen, tietojen tallentaminen tietokantaan.
 
 ## Testikattavuus
 
