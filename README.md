@@ -13,8 +13,7 @@ Tämän laskimen avulla käyttäjä pystyy laskemaan erilaisia matemaattisia las
 
 [Releases](https://github.com/annaessina/ot-harjoitustyo/releases)
 
-[Käyttöohje](https://github.com/lottatan/ot_harjoitustyo/blob/master/dokumentaatio/k%C3%A4ytt%C3%B6ohje.md)
-
+[Käyttöohje](https://github.com/annaessina/ot-harjoitustyo/blob/main/dokumentaatio/kayttoohje.md)
 ## Ohjelman asennus:
 
 Riippuvuuksien asennus:
