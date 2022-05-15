@@ -6,5 +6,6 @@ Kansio user_test.py sisältää testejä erilaisista toiminnoista, jotka ovat yh
 
 ## Testikattavuus
 
-![Screenshot from 2022-05-15 20-54-37](https://user-images.githubusercontent.com/101710774/168487443-df77226e-a9d1-4cbf-8ba6-9a48bababc74.png)
+![Screenshot from 2022-05-15 22-21-29](https://user-images.githubusercontent.com/101710774/168490271-c2c948f4-14af-4626-abf5-a4221810931c.png)
+
 
