@@ -23,7 +23,7 @@ def format(ctx):
 
 @task
 def build(ctx):
-    ctx.run("python3 src/build.py", pty=True)
+    ctx.run("python3 calculator/src/build.py", pty=True)
 
 @task
 def lint(ctx):
