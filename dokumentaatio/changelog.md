@@ -18,3 +18,7 @@
 - Tietokannan toimivuutta muokattiin
 - Docstring aloitettu
 - Korjattu edellisen viikon virheet
+
+# Viikko 7:
+- Sovellus käynnistyy taas eli virheet korjattu
+- Laskimen historia saatiin tallennettua SQL Viewer sovelluksen avulla (https://inloop.github.io/sqlite-viewer/)
