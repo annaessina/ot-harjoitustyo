@@ -14,6 +14,9 @@
 | 29.4  |  3   | Käyttöliittymän muokkausta |
 | 2.5   |  2   | Sovelluksen toimivuuden parantamista |
 | 3.5   |  4   | Docstring ja koodin muokkausta | 
-| yht.  |  53  |
+| 9.5   |  3   | Laskimen toiminnallisuuksien parantamista |
+| 11.5  |  5   | Koodin ja testien parantelua |
+| 15.5  |  6   | Koodin parantelua |
+| yht.  |  67  |
 
 
