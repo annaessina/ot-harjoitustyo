@@ -18,7 +18,7 @@ Käytössä on yksi normaali käyttäjä, jonka voi itse luoda.
 **Käyttöliittymä**
 Sovelluksessa on kolme näkymää:
 1. Etusivu, jossa käyttäjä pystyy kirjautumaan sisälle tai siirtymään luomaan uuden käyttäjän
-2. Uuden käyttäjänä luontisivu
+2. Uuden käyttäjän luontisivu
 3. Itse laskinnäkymä, jossa laskin voi laskea erilaisia laskuja
 
 **Jatkokehitysideoita**
