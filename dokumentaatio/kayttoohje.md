@@ -26,3 +26,15 @@ Uuden käyttäjän voi luoda keksimällä uuden käyttäjänimen sekä salasanan
 
 ![Screenshot from 2022-05-15 20-00-44](https://user-images.githubusercontent.com/101710774/168485371-f131e325-cb9d-46f1-8bf7-57ac30593c79.png)
 
+## Laskimen käyttö
+
+Syötä kaksi numeroa a ja b niille tarkoitettuihin tekstikenttiin. 
+- Painamalla näppäintä "Calculate a + b =" laskin laskee numeroiden summan. 
+- Painamalla näppäintä "Calculate a - b =" laskin laksee numeroiden erotuksen. 
+- Painamalla näppäintä "Calculate a * b =" laskin laskee numeroiden kertolaskun. 
+- Painamalla näppäintä "Calculate a / b =" laskin laskee numeroiden jakolaskun.
+
+Kun kaikki halutut laskut on tehty, datan tallennus onnistuu painamalla yhden kerran nappia "Save data".
+Uloskirjautuminen onnistuu "Log out" napin avulla ja käyttäjän poistaminen onnistuu "Delete user" nappäimen avulla.
+
+![Screenshot from 2022-05-15 20-01-15](https://user-images.githubusercontent.com/101710774/168485917-37712ea2-0959-498c-a172-7edda018da20.png)
