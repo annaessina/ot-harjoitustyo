@@ -16,6 +16,7 @@ Käytössä on yksi normaali käyttäjä, jonka voi itse luoda.
 - SQLite Viewer sovelluksen avulla käyttäjän tiedot ja laskinhistoria jää talteen (https://inloop.github.io/sqlite-viewer/) (tehty)
 
 **Käyttöliittymä**
+
 Sovelluksessa on kolme näkymää:
 1. Etusivu, jossa käyttäjä pystyy kirjautumaan sisälle tai siirtymään luomaan uuden käyttäjän (tehty)
 2. Uuden käyttäjän luontisivu (tehty)
