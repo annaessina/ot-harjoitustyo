@@ -14,6 +14,9 @@ Tämän laskimen avulla käyttäjä pystyy laskemaan erilaisia matemaattisia las
 [Releases](https://github.com/annaessina/ot-harjoitustyo/releases)
 
 [Käyttöohje](https://github.com/annaessina/ot-harjoitustyo/blob/main/dokumentaatio/kayttoohje.md)
+
+[Testausdokumentti](https://github.com/annaessina/ot-harjoitustyo/blob/main/dokumentaatio/testausdokumentti.md)
+
 ## Ohjelman asennus:
 
 Riippuvuuksien asennus:
