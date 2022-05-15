@@ -1,5 +1,0 @@
-kurssit/
-└── ot2022
-    └── viikko1
-
-2 directories, 0 files
