@@ -4,15 +4,15 @@ Viimeisimmän releasen voi ladata Githubista Source coden avulla.
 
 ## Ohjelman käynnistys
 
-Riippuvuuksien asennus:
+1. Riippuvuuksien asennus:
 
 ``poetry install``
 
-Ohjelman alustaminen:
+2. Ohjelman alustaminen:
 
 ``poetry run invoke build``
 
-Ohjelman käynnistys:
+3. Ohjelman käynnistys:
 
 ``poetry run invoke start``
 
