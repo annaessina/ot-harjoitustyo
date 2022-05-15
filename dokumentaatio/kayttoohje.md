@@ -39,4 +39,5 @@ Syötä kaksi numeroa a ja b niille tarkoitettuihin tekstikenttiin.
 Kun kaikki halutut laskut on tehty, datan tallennus onnistuu painamalla yhden kerran nappia "Save data".
 Uloskirjautuminen onnistuu "Log out" napin avulla ja käyttäjän poistaminen onnistuu "Delete user" nappäimen avulla.
 
-![Screenshot from 2022-05-15 20-01-15](https://user-images.githubusercontent.com/101710774/168485917-37712ea2-0959-498c-a172-7edda018da20.png)
+![Screenshot from 2022-05-15 22-32-54](https://user-images.githubusercontent.com/101710774/168491822-a2c1d694-b9db-4d9d-8394-ccd88d34c5af.png)
+
